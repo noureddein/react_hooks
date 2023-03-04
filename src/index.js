@@ -4,8 +4,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Main from "./Main";
-import Home from "./Home";
-import User from "./User";
+import Home from "./useEffect/Home";
+import User from "./useEffect/User";
 
 const router = createBrowserRouter([
     {

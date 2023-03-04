@@ -1,15 +1,19 @@
 ﻿import { Link } from 'react-router-dom'
 
-import Part1 from "./Part_1";
-import Part2 from "./Part_2";
-import Part3 from "./Part_3";
-import User from './User';
+// ** useEffect lesson
+import Part1 from "./useEffect/Part_1";
+import Part2 from "./useEffect/Part_2";
+import Part3 from "./useEffect/Part_3";
+
+// ** useReducer lesson
+import Post from './useReducer/Post';
+import Form from './useReducer/Form';
 
 export default function Main() {
   return (
     <div>
-        <h5><Link to="/posts">Go to Posts page</Link></h5>
-        {/* <User /> */}
+        {/* <h5><Link to="/posts">Go to Posts page</Link></h5> */}
+        <Form />
     </div>
   )
 }
